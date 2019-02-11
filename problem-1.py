@@ -3,7 +3,14 @@
 # Write a program that asks the user to input any positive integer and outputs the
 # sum of all numbers between one and that number.
 # --------------------------------------------------------------------------------
+#
+# Author: Yvonne Brady
+# Student ID: G00376355
+#
+# --------------------------------------------------------------------------------
 
+
+# looking for a user input
 ans = input("Please enter a positive integer: ")
 # Problem is that all inputs are classed as strings so we need to convert it to an int value
 # Converting to an int type will only work if an integer value has been inputted in the first place
