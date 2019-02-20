@@ -23,22 +23,27 @@ try:
     if i > 0:
 
         # ------------------------------------------------------------------------
-        # This prints all values on separate lines - will probably need to 
-        # change to a list to get the answer like the one on the problem set.
+        # Trial 1 - Direct print:
+        #   print (i) repeatedly -prints all values on separate lines 
+        # Trial 2 - List: 
+        #   creating and appending it into a list printed it all on one line, 
+        #   but in square brackets
+        # Trial 3 - concatenating string:
+        #   concatenating a string returns a value exactly as required.
         # ------------------------------------------------------------------------
 
         # This bit does the calculation - changed for problem 4
+        l = str(i)
         while i != 1:
             # Print the start value
-            print(i)
-            if i%2 == 0:
+            if not(i%2):
                 # If it is even  divide by 2
                 i = int(i / 2)
             else:
                 # If it is odd multiply by 3 and add 1
                 i = (i * 3) + 1
-        # Need to print 1 as well
-        print(i)
+            l = l + " " + str(i)
+        print(l)
 # --------------------------------------------------------------------------------
 
     else:
