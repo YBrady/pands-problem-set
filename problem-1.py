@@ -29,7 +29,7 @@ try:
             i = i-  1
         print(j)
     else:
-        # If the numer is 0 or negative the user is informed
+        # If the number is 0 or negative the user is informed
         print("The number has to be positive!")
 
 #If it was not able to convert to an int type - ie a string / floating point number was inputted

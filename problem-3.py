@@ -26,7 +26,7 @@
 
 # --------------------------------------------------------------------------------
 # Trial 3 - expected to print only those divisible by 6 but not 12
-for l in range(1000,2000):
+for l in range(1000,10000):
     if l%6 == 0 and l%12 > 0:
         print(l)
 # Worked fine
