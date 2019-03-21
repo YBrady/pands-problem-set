@@ -42,6 +42,7 @@ try:
             else:
                 # If it is odd multiply by 3 and add 1
                 i = (i * 3) + 1
+            # Concatenates the string to add the latest calculation result
             l = l + " " + str(i)
         print(l)
 # --------------------------------------------------------------------------------

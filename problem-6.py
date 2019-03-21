@@ -19,5 +19,5 @@ wordList = ans.split( )
 #This prints the list skipping every other list item (/ word)
 # print (wordList[::2])
 
-#This prints the list items out with a space spearator (no square brackets)
+#This prints the list items out with a space separator (no square brackets)
 print (' '.join(wordList[::2])) 

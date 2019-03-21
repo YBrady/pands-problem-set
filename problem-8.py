@@ -24,12 +24,16 @@ import datetime
 now = datetime.datetime.now()
 
 # Need to change the ordinal indicator depending on whether the format requires st / nd / rd / th
-if now.day == 1  or now.day == 21 or now.day == 31:
+# If its the 1st / 21st or 31st use "st"
+if (now.day%10) == 1 and not now.day == 11:
     print (now.strftime("%A, %B %dst %Y at %I:%M%p"))
-elif now.day == 2 or now.day == 22:
+# If its the 2nd or 22nd use "nd"
+elif (now.day%10) == 2 and not now.day == 12:
     print (now.strftime("%A, %B %dnd %Y at %I:%M%p"))
-elif now.day == 3 or now.day == 23:
+# If it is the 3rd or 23rd use "rd"
+elif (now.day%10) == 3 and not now.day == 13:
     print (now.strftime("%A, %B %drd %Y at %I:%M%p"))
+# Otherwise just use "th"
 else:     
     # Monday, January 10th 2019 at 1:15pm”.
     print (now.strftime("%A, %B %dth %Y at %I:%M%p"))

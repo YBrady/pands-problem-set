@@ -5,6 +5,6 @@ This is the fourth line.
 Here is the fifth line.
 This is the sixth line.
 Now for the seventh line.
-The eigth line is now.
+The eighth line is now.
 This is the second last line / the ninth.
 Finally, the tenth line. The end.
