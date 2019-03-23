@@ -2,12 +2,14 @@
 Programming &amp; Scripting Problem Set Semester 1 2019
 This repository contains my solutions to the Problem Sets 2019 for the module 
 
-##Secondary heading
+## Secondary heading
+
 1. List, list
 2. listy list list
 
 
 ## How to download this repository
+
 1. First Step
 2. Step 2
 

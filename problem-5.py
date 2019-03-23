@@ -21,8 +21,8 @@ try:
     # Here I am checking to make sure it is a positive number
     # As per instructions, program only to work with positive integer
     if i > 0:
-        # This bit does the calculation - changed for problem 5
-        # Heavily inspired by Section 4.4 in Python Tutorial
+        # This bit does the calculation
+        # Adapted from Section 4.4 in Python Tutorial
         if i > 2:
             for y in range(2,i):
                 # Checks each number from 2 to the number selected

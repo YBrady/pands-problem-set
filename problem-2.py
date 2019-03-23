@@ -21,7 +21,7 @@ import datetime
 # print(now.strftime("%A"))
 
 # strftime converts the date to a string so we could check the first letter
-# %A retuns the day name
+# %A returns the day name
 
 # Getting the first character of a string is simply string[0]
 if datetime.datetime.now().strftime("%A")[0] == "T":
