@@ -1,10 +1,11 @@
 
-<img align="left" src="GMIT-logo.png" alt="GMIT" width="200"/>                               <img align="right" src="data-analytics.png" alt="HDipDA" width="300"/> 
+<img align="left" src="GMIT-logo.png" alt="GMIT" width="200"/>                               <img align="right" src="data-analytics.png" alt="HDipDA" width="300"/>  
+
 # Programming &amp; Scripting Problem Set Semester 1 2019
 
-**Written by**: Yvonne Brady
-**Student ID**: G00376355
-**Module**: 52445 Programming & Scripting
+**Written by**: Yvonne Brady  
+**Student ID**: G00376355  
+**Module**: 52445 Programming & Scripting  
 
 
 ## pands-problem-set
