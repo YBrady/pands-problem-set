@@ -1,12 +1,14 @@
-# pands-problem-set
+
+![GMIT logo](GMIT-logo.png)
 Programming &amp; Scripting Problem Set Semester 1 2019
 This repository contains my solutions to the Problem Sets 2019 for the module 
-
+# pands-problem-set
 ## Secondary heading
 
 1. List, list
 2. listy list list
 
+<img src="GMIT-logo.png" alt="drawing" width="200"/>
 
 ## How to download this repository
 
