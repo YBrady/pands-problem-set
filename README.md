@@ -1,5 +1,5 @@
 
-<img src="GMIT-logo.png" alt="GMIT" width="200"/>                               <img src="data-analytics.png" alt="HDipDA" width="200"/> 
+<img align="left" src="GMIT-logo.png" alt="GMIT" width="200"/>                               <img align="right" src="data-analytics.png" alt="HDipDA" width="300"/> 
 # Programming &amp; Scripting Problem Set Semester 1 2019
 
 **Written by**: Yvonne Brady
