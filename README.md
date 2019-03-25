@@ -1,8 +1,15 @@
 
-<img src="GMIT-logo.png" alt="drawing" width="200"/> # Programming &amp; Scripting Problem Set Semester 1 2019
+<img src="GMIT-logo.png" alt="GMIT" width="200"/>                               <img src="data-analytics.png" alt="HDipDA" width="200"/> 
+# Programming &amp; Scripting Problem Set Semester 1 2019
+
+**Written by**: Yvonne Brady
+**Student ID**: G00376355
+**Module**: 52445 Programming & Scripting
+
 
 ## pands-problem-set
-This repository contains my solutions to the Problem Sets 2019 for the module 
+This repository contains my solutions to the Problem Sets 2019 for the Programming & Scripting module given by _Ian McLoughlin_ of GMIT.
+
 ## Secondary heading
 
 1. List, list
