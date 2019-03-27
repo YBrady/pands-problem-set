@@ -13,7 +13,7 @@ ___________________________________________
 ___________________________________________
 
 ## 1. Introduction to pands-problem-set 
-This repository contains my solutions to the Problem Sets 2019 for the Programming & Scripting module given by _Ian McLoughlin_ of GMIT.
+This repository contains my solutions to the Problem Sets 2019 for the Programming & Scripting module given by Ian McLoughlin of GMIT.
 
 The Problem Set itself is divided into 10 problems and this repository has a separate python program for each problem. See below for details.
 
@@ -23,7 +23,6 @@ The Problem Set itself is divided into 10 problems and this repository has a sep
 2. Run using python interface such as iPython or any command line interface.
 3. Type in "python" (without inverted commas) followed by the name of the file. 
 4. For individual instructions on each of the programs see below.
-
 
 ## 3. Summary of Solutions
 See the table below for a summary of each of the problems. A more detailed description of each solution is in Section 4 if required.
@@ -45,7 +44,6 @@ ___________________________________________
 
 _**Table 1**: Summary of Problems and Solutions_  
 
-
 ## 4. Individual Solutions
 
 ### 4.1 Problem 1
@@ -59,10 +57,10 @@ Once the input is converted, the code goes through a For loop decrementing the o
 
 * **To run**: python sumupto.py
 * **Prompt**: Please enter a positive integer: 
- * Enter an integer: _e.g._ 23
+ - Enter an integer: _e.g._ 23
 * **Returns**: _e.g._
- * 276
- * The sum of all numbers from 1 to 23 is 276.
+ - 276
+ - The sum of all numbers from 1 to 23 is 276.
 
 ### 4.2 Problem 2
 The problem posed was:
@@ -74,8 +72,8 @@ First the standard python datetime module is imported. The first letter of the l
 * **To run**: python begins-with-t.py
 * **Prompt**: None
 * **Returns**: 
- * If it is a Tuesday or Thursday: Yes - today begins with a T
- * If it is any other day: No - today does not begin with a T
+ - If it is a Tuesday or Thursday: Yes - today begins with a T
+ - If it is any other day: No - today does not begin with a T
 
 ### 4.3 Problem 3
 The problem posed was:
@@ -86,12 +84,12 @@ Using the range object, the program loops through each number from 1000 to 2000 
 * **To run**: python divisors.py
 * **Prompt**: None
 * **Returns**: 
- * 1002
- * 1014
- * 1026 
- * ...
- * 9978
- * 9990
+ - 1002
+ - 1014
+ - 1026 
+ - ...
+ - 9978
+ - 9990
 
 ### 4.4 Problem 4
 The problem posed was:
@@ -101,10 +99,10 @@ The problem posed was:
 The user is first prompted to input a number which is then converted to an integer in the same manner as Problem 1 above. The program then determines whether the number is either even (when the remainder when divided by 2 is zero or false) or odd. If it is even it perfrorms the functions as described in the problem. and similarly if it is odd. The resultant number is concatenated onto the string  and the process repeated until the resultant number is 1. This final 1 is also concatenated onto the result string and this full list of all numbers is finally printed to screen.
 * **To run**:   python collatz.py
 * **Prompt**: Please enter a positive integer: 
- * Enter an integer: _e.g._ 
- * 13
+ - Enter an integer: _e.g._ 
+ - 13
 * **Returns**: _e.g._
- * 13 40 20 10 5 16 8 4 2 1
+ - 13 40 20 10 5 16 8 4 2 1
 
 ### 4.5 Problem 5
 The problem posed was:
@@ -118,14 +116,14 @@ Once the number is available, the program loops through each number from 2 to th
 Special consideration is also given to the numbers 1, which by definition is not a prime number and 2, which is.
 * **To run**:   python primes.py
 * **Prompt**: Please enter a positive integer: 
- * Enter an integer: _e.g._ 
- * 13
+ - Enter an integer: _e.g._ 
+ - 13
 * **Returns**: _e.g._
- * 13 IS a prime number
- * Enter an integer: _e.g._ 
- * 32465653413
+ - 13 IS a prime number
+ - Enter an integer: _e.g._ 
+ - 32465653413
 * **Returns**: _e.g._
- * 32465653413 is NOT a prime number
+ - 32465653413 is NOT a prime number
 
 ### 4.6 Problem 6
 The problem posed was:
@@ -137,12 +135,12 @@ The user is prompted to input a sentence. This time we do not need to convert it
 Every second element of this array is then printed out (starting with the first) and joined with a space separator.
 * **To run**:   python secondstring.py
 * **Prompt**: Please enter a sentence: 
- * Enter asentence: _e.g._ 
- * I am currently doing a H.Dip. in Data Analytics in GMIT.
+ - Enter asentence: _e.g._ 
+ - I am currently doing a H.Dip. in Data Analytics in GMIT.
 * **Returns**: _e.g._
- * I currently a in Analytics GMIT.
+ - I currently a in Analytics GMIT.
 
-### 4.7 Problem 7 (squareroot)
+### 4.7 Problem 7 (squareroot.py)
 The problem posed was:
 >Write a program that that takes a positive floating point number as input and outputs an approximation of its square root.
 
@@ -160,12 +158,12 @@ As a side note, the results using each of the three methods were equivalent for 
 
 * **To run**:   python squareroot.py
 * **Prompt**: Please enter a positive number: 
- * Enter a number: _e.g._ 
- * 5368.2
+ - Enter a number: _e.g._ 
+ - 5368.2
 * **Returns**: _e.g._
- * The python square root of 5368.2 is approx 73.3.
- * The Babylonian square root of 5368.2 is approx 73.3.
- * The Newtonian square root of 5368.2 is approx. 73.3.
+ - The python square root of 5368.2 is approx 73.3.
+ - The Babylonian square root of 5368.2 is approx 73.3.
+ - The Newtonian square root of 5368.2 is approx. 73.3.
 
 ### 4.8 Problem 8
 The problem posed was:
@@ -179,7 +177,7 @@ Depending on what the date was, the correct ordinal indicator had to be determin
 * **To run**:   python datetime.py
 * **Prompt**: None
 * **Returns**: _e.g._
- * Wednesday, March 27th 2019 at 07:56pm
+ - Wednesday, March 27th 2019 at 07:56pm
 
 ### 4.9 Problem 9
 The problem posed was:
@@ -209,11 +207,11 @@ Finally, the tenth line. The end.
 * **To run**: python second.py file1.txt
 * **Prompt**: None
 * **Returns**: 
- * This is the first line of my text file.
- * And the third.
- * Here is the fifth line.
- * Now for the seventh line.
- * This is the second last line / the ninth.
+ - This is the first line of my text file.
+ - And the third.
+ - Here is the fifth line.
+ - Now for the seventh line.
+ - This is the second last line / the ninth.
 
 
 ### 4.10 Problem 10
