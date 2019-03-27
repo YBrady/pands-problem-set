@@ -32,7 +32,7 @@ try:
         #   concatenating a string returns a value exactly as required.
         # ------------------------------------------------------------------------
 
-        # This bit does the calculation - changed for problem 4
+        # This bit does the calculation
         l = str(i)
         while i != 1:
             # Print the start value

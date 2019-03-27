@@ -29,15 +29,18 @@ try:
                 # If any of the numbers checked result in no remainder
                 # The number could not be prime.
                 if not ( i % y ):
-                    print (str(i) + " is NOT a prime number")
+                    print (f"{i} is NOT a prime number")
                     # Breaks so as to stop checking
                     break
                 # If all the numbers have been checked - it must be prime
                 if y == i - 1:
-                    print (str(i) + " IS a prime number")
-        else:
-            # Because 1 and 2 are prime numbers too!
-            print (str(i) + " IS a prime number")
+                    print (f"{i} IS a prime number")
+        elif i == 1:
+            # Because 1 is not a prime number
+            print (f"{i} is NOT a prime number. By definition the number has to be over 1.")
+        else: 
+            # Because 2 is a prime numbers too
+            print (f"{i} IS a prime number")
     else:
         # If the number is 0 or negative the user is informed
         print("The number has to be positive!")

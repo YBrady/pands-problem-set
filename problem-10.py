@@ -40,5 +40,5 @@ plt.ylabel("y-axis")
 # Position the legend
 plt.legend(loc='upper left')
 
-# Plot the graphs 
+# Show the plotted graphs 
 plt.show() 

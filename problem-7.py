@@ -58,8 +58,13 @@ try:
         # less than 1 any better, but it really isn't that much better than the Babylonian one above!
         estimate = i/2
 
+        # While the difference between the estimate squared and the original answer is greater than 0.1
+        # The 0.1 here is because we are rounding it to one decimal place so no need for further accuracy.
         while abs((estimate * estimate) - i) > 0.1:
+            # According to Newton alter the estimate by the difference above divided by twice the estimate
+            #  to get a nearer approximation
 	        estimate -= ((estimate * estimate) - i)/(2 * estimate)
+        # Round the resultant final estimate for inclusion in the printed result
         estimate = round(estimate,1)
         print (f"The Newtonian square root of {i} is approx. {estimate}.") 
         #----------------------------------------------------------------------------------
